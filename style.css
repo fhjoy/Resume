@@ -298,9 +298,11 @@ section .title::after{
 .services .serv-content .card:hover{
     background: #006d77;
     color: white;
+    transform: translateY(-8px);
+	transition: all .3s;
 }
 .services .serv-content .card .box{
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
@@ -308,7 +310,7 @@ section .title::after{
 .services .serv-content .card i{
     font-size: 50px;
     color: #006d77;
-    transition: color 0.3s ease;
+    transition: color 0.1s ease;
 }
 .services .serv-content .card:hover i{
     color: white;
@@ -422,18 +424,20 @@ section .title::after{
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .teams .carousel .card:hover{
     background: #006d77;
     color: white; 
+    transform: translateY(-8px);
+	transition: all .3s;
 }
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -449,7 +453,7 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #006d77;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .teams .carousel .card:hover img{
     border-color: #83c5be;
@@ -465,7 +469,7 @@ section .title::after{
     outline: none!important;
     border-radius: 50%;
     border: 2px solid #006d77!important;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .owl-dot.active{
     width: 35px;
