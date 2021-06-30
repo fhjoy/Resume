@@ -323,7 +323,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "What I Know";
+    content: "What I Did";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -384,34 +384,34 @@ section .title::after{
     background: #83c5be;
 }
 .skills-content .right .html::before{
-    width: 95%;
+    width: 100%;
 }
 .skills-content .right .js::before{
-    width: 75%;
+    width: 100%;
 }
 .skills-content .right .design::before{
-    width: 80%;
+    width: 100%;
 }
 .skills-content .right .cms::before{
-    width: 85%;
+    width: 100%;
 }
 .skills-content .right .php::before{
-    width: 30%;
+    width: 100%;
 }
 .skills-content .right .mysql::before{
-    width: 50%;
+    width: 100%;
 }
 .skills-content .right .css::before{
-    width: 85%;
+    width: 100%;
 }
 .skills-content .right .react::before{
-    width: 30%;
+    width: 100%;
 }
 .skills-content .right .version::before{
-    width: 85%;
+    width: 100%;
 }
 .skills-content .right .seo::before{
-    width: 90%;
+    width: 100%;
 }
 
 /* teams section styling */
