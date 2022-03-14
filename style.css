@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -41,7 +41,7 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #83c5be;
 }
 .about .about-content,
@@ -60,11 +60,11 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #006d77;
 }
 section .title::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -90,7 +90,7 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
 }
 .navbar.sticky {
@@ -189,13 +189,13 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("images/banner.jpg") no-repeat center;
+  background: url('images/banner.jpg') no-repeat center;
   height: 100vh;
   color: #83c5be;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width {
   width: 100%;
@@ -245,7 +245,7 @@ section .title::after {
 }
 
 .about .title::after {
-  content: "Introduce Myself";
+  content: 'Introduce Myself';
 }
 .about .about-content p {
   margin-bottom: 30px;
@@ -257,8 +257,8 @@ section .title::after {
   width: 45%;
 }
 .about .about-content .left img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -309,7 +309,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "What I Can Do";
+  content: 'What I Can Do';
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -356,7 +356,7 @@ section .title::after {
 }
 
 .portfolio .title::after {
-  content: "What I Did";
+  content: 'What I Did';
 }
 
 .background-bg {
@@ -388,7 +388,7 @@ section .title::after {
   cursor: pointer;
   border-radius: 2rem;
   transition: 0.3s;
-  font-family: "ubuntu";
+  font-family: 'ubuntu';
 }
 
 .filter-btn.active {
@@ -444,7 +444,7 @@ section .title::after {
   padding: 2rem 3.2rem;
   opacity: 0;
   transition: 0.5s;
-  font-family: "ubuntu";
+  font-family: 'ubuntu';
 }
 
 .img-overlay .plus {
@@ -454,7 +454,7 @@ section .title::after {
 
 .plus:before,
 .plus:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 4.5rem;
   height: 3px;
@@ -496,7 +496,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "With I Learned";
+  content: 'With I Learned';
 }
 .teams .carousel .card {
   background: #222;
@@ -562,7 +562,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  content: "Get In Touch";
+  content: 'Get In Touch';
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
@@ -595,7 +595,7 @@ section .title::after {
   font-weight: 500;
   color: #006d77;
 }
-.contact .contact-content .info .sub-title {
+.contact .contact-content .info .sub-title a {
   color: #83c5be;
 }
 .contact .right form .fields {
@@ -624,7 +624,7 @@ section .title::after {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease;
   color: #83c5be;
 }
@@ -810,7 +810,7 @@ section .title::after {
     z-index: 999;
   }
   .menu-btn i.active:before {
-    content: "\f00d";
+    content: '\f00d';
   }
   .navbar .menu {
     position: fixed;
@@ -950,7 +950,7 @@ section .title::after {
   }
 
   .bottom-footer:before {
-    content: "";
+    content: '';
     position: absolute;
     width: 90%;
     max-width: 500px;
