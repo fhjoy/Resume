@@ -189,14 +189,23 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url('images/banner.jpg') no-repeat center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(17, 17, 17, 0.35),
+      rgba(34, 34, 34, 0.35)
+    ),
+    url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+
   height: 100vh;
-  color: #83c5be;
+  color: rgb(131, 197, 190);
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
+
 .home .max-width {
   width: 100%;
   display: flex;
@@ -217,7 +226,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: #006d77;
+  color: rgb(0, 109, 119);
   font-weight: 500;
 }
 .home .home-content a {
@@ -241,7 +250,7 @@ section .title::after {
 .about,
 .skills,
 .contact {
-  background: #222;
+  background: #222222;
 }
 
 .about .title::after {
@@ -249,12 +258,14 @@ section .title::after {
 }
 .about .about-content p {
   margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .about .about-content a {
   color: #006d77;
 }
 .about .about-content .left {
-  width: 45%;
+  width: 35%;
 }
 .about .about-content .left img {
   height: 250px;
@@ -263,7 +274,7 @@ section .title::after {
   border-radius: 6px;
 }
 .about .about-content .right {
-  width: 55%;
+  width: 65%;
 }
 .about .about-content .right .text {
   font-size: 25px;
@@ -300,7 +311,7 @@ section .title::after {
 .services,
 .teams {
   color: #83c5be;
-  background: #111;
+  background: rgb(17, 17, 17);
 }
 .services .title::before,
 .teams .title::before {
