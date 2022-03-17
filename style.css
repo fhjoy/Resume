@@ -114,6 +114,10 @@ section .title::after {
 .navbar.sticky .logo a span {
   color: #006d77;
 }
+.navbar .menu {
+  text-transform: uppercase;
+}
+
 .navbar .menu li {
   list-style: none;
   display: inline-block;
