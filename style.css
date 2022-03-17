@@ -1,3 +1,30 @@
+/* color #83c5be  
+      #006d77
+      #222
+      white
+navbar  #343a40
+https://fhjoy.github.io/Resume/
+
+
+
+button  background: #006d77;
+        color:white;
+        radius: 6px
+button: hover   color: #83c5be;
+                background: none;
+
+card    background: #222;
+card    hover  background: #006d77;
+               color: white; 
+               
+portfo;io overly color:  #273b39
+
+I changed #83c5be to #c1e2df  
+#006d77 to #83c5be 
+
+
+*/
+
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
@@ -16,14 +43,14 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #83c5be;
+  background: #c1e2df;
 }
 ::-webkit-scrollbar-thumb {
   background: white;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #006d77;
+  background: #83c5be;
 }
 
 /* all similar content styling codes */
@@ -42,7 +69,7 @@ section {
 .contact,
 footer {
   font-family: 'Poppins', sans-serif;
-  color: #83c5be;
+  color: #c1e2df;
 }
 .about .about-content,
 .services .serv-content,
@@ -61,7 +88,7 @@ section .title {
   margin-bottom: 60px;
   padding-bottom: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: #006d77;
+  color: #83c5be;
 }
 section .title::before {
   content: '';
@@ -70,7 +97,7 @@ section .title::before {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #006d77;
+  background: #83c5be;
   transform: translateX(-50%);
 }
 section .title::after {
@@ -78,7 +105,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #83c5be;
+  color: #c1e2df;
   padding: 0 5px;
   background: #222;
   transform: translateX(-50%);
@@ -103,16 +130,16 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #83c5be;
+  color: #c1e2df;
   font-size: 35px;
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: #006d77;
+  color: #83c5be;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: #006d77;
+  color: #83c5be;
 }
 .navbar .menu {
   text-transform: uppercase;
@@ -124,17 +151,17 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: #83c5be;
+  color: #c1e2df;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #006d77;
+  color: #83c5be;
 }
 .navbar.sticky .menu li a:hover {
-  color: #83c5be;
+  color: #c1e2df;
 }
 
 .navbar .menu .active {
@@ -151,13 +178,13 @@ section .title::after {
 }
 
 .navbar .menu .active:hover {
-  color: #006d77;
+  color: #83c5be;
   background: none;
 }
 
 /* menu btn styling */
 .menu-btn {
-  color: #83c5be;
+  color: #c1e2df;
   font-size: 23px;
   cursor: pointer;
   display: none;
@@ -246,7 +273,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: #83c5be;
+  color: #c1e2df;
   background: none;
 }
 
@@ -266,7 +293,7 @@ section .title::after {
   line-height: 30px;
 }
 .about .about-content a {
-  color: #006d77;
+  color: #83c5be;
 }
 .about .about-content .left {
   width: 30%;
@@ -284,14 +311,14 @@ section .title::after {
   font-size: 25px;
   font-weight: 600;
   /* margin-bottom: 10px; */
-  color: #83c5be;
+  color: #c1e2df;
 }
 .about .about-content .right .text span {
-  color: #006d77;
+  color: #83c5be;
 }
 .about .about-content .right ul {
   text-align: justify;
-  color: #83c5be;
+  color: #c1e2df;
   list-style: none;
   margin-top: -50px;
 }
@@ -300,7 +327,7 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  color: #006d77;
+  color: #83c5be;
   font-size: 20px;
   font-weight: 500;
   margin-top: 20px;
@@ -314,12 +341,12 @@ section .title::after {
 /* Technical Skills section styling */
 .services,
 .teams {
-  color: #83c5be;
+  color: #c1e2df;
   background: rgb(17, 17, 17);
 }
 .services .title::before,
 .teams .title::before {
-  background: #006d77;
+  background: #83c5be;
 }
 .services .title::after,
 .teams .title::after {
@@ -337,7 +364,7 @@ section .title::after {
   margin-bottom: 30px;
 }
 .services .serv-content .card:hover {
-  background: #006d77;
+  background: #83c5be;
   color: white;
   transform: translateY(-8px);
   transition: all 0.3s;
@@ -350,7 +377,7 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: #006d77;
+  color: #83c5be;
   transition: color 0.1s ease;
 }
 .services .serv-content .card:hover i {
@@ -367,7 +394,7 @@ section .title::after {
   position: relative;
   width: 100%;
   background-color: #222;
-  color: #006d77;
+  color: #83c5be;
 }
 
 .portfolio .title::after {
@@ -395,13 +422,13 @@ section .title::after {
   background-color: transparent;
   margin: 0.45rem 0.4rem;
   padding: 0.85rem 1.8rem;
-  color: #83c5be;
+  color: #c1e2df;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
-  border-radius: 2rem;
+  border-radius: 6px;
   transition: 0.3s;
   font-family: 'ubuntu';
 }
@@ -450,7 +477,7 @@ section .title::after {
   top: 0;
   left: 0;
   z-index: 2;
-  color: #006d77;
+  color: #273b39;
   background-color: rgba(131, 197, 190, 0.75);
   display: flex;
   flex-direction: column;
@@ -476,7 +503,7 @@ section .title::after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #006d77;
+  background-color: #83c5be;
   border-radius: 3px;
 }
 
@@ -522,7 +549,7 @@ section .title::after {
   transition: all 0.1s ease;
 }
 .teams .carousel .card:hover {
-  background: #006d77;
+  background: #83c5be;
   color: white;
   transform: translateY(-8px);
   transition: all 0.3s;
@@ -547,11 +574,11 @@ section .title::after {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #006d77;
+  border: 5px solid #83c5be;
   transition: all 0.1s ease;
 }
 .teams .carousel .card:hover img {
-  border-color: #83c5be;
+  border-color: #c1e2df;
 }
 .owl-dots {
   text-align: center;
@@ -563,7 +590,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #006d77 !important;
+  border: 2px solid #83c5be !important;
   transition: all 0.1s ease;
 }
 .owl-dot.active {
@@ -572,7 +599,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #006d77 !important;
+  background: #83c5be !important;
 }
 
 /* contact section styling */
@@ -586,7 +613,7 @@ section .title::after {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #006d77;
+  color: #83c5be;
 }
 .contact .contact-content .left p {
   text-align: justify;
@@ -604,14 +631,14 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #006d77;
+  color: #83c5be;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
-  color: #006d77;
+  color: #83c5be;
 }
 .contact .contact-content .info .sub-title a {
-  color: #83c5be;
+  color: #c1e2df;
 }
 .contact .right form .fields {
   display: flex;
@@ -634,7 +661,7 @@ section .title::after {
 .contact .right form .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 1px solid #006d77;
+  border: 1px solid #83c5be;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
@@ -645,7 +672,7 @@ section .title::after {
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
-  border-color: #006d77;
+  border-color: #83c5be;
 }
 .contact .right form .textarea textarea {
   padding-top: 10px;
@@ -672,7 +699,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: #006d77;
+  color: #83c5be;
   background: none;
 }
 ::placeholder {
@@ -696,16 +723,16 @@ section .title::after {
 
 .footer .title-sm {
   margin-bottom: 0.5rem;
-  color: #006d77;
+  color: #83c5be;
 }
 
 .footer .text {
-  color: #83c5be;
+  color: #c1e2df;
   margin-left: -0.2rem;
 }
 .footer-links a {
   font-size: 1.25rem;
-  color: #83c5be;
+  color: #c1e2df;
   display: inline-block;
   margin-bottom: 0.4rem;
   transition: 0.3s;
@@ -715,7 +742,7 @@ section .title::after {
 }
 
 .footer-links a:hover {
-  background: #006d77;
+  background: #83c5be;
   color: white;
 }
 .footer-input-wrap {
@@ -732,7 +759,7 @@ section .title::after {
   font-size: 1.1rem;
   padding: 0 1.5rem;
   background-color: white;
-  color: #006d77;
+  color: #83c5be;
   outline: none;
   border: none;
   transition: 0.3s;
@@ -748,12 +775,12 @@ section .title::after {
   transition: 0.3s;
 }
 .input-arrow:hover {
-  color: #83c5be;
+  color: #c1e2df;
   background-color: none;
 }
 
 .focus {
-  background-color: #83c5be;
+  background-color: #c1e2df;
 }
 .bottom-footer {
   margin-top: 5.5rem;
@@ -763,13 +790,13 @@ section .title::after {
   justify-content: space-between;
 }
 .copyright .text {
-  color: #83c5be;
+  color: #c1e2df;
   font-size: 1rem;
   display: inline-block;
   text-align: center;
 }
 .copyright .text span {
-  color: #006d77;
+  color: #83c5be;
   cursor: pointer;
 }
 .followme-wrap {
@@ -781,7 +808,7 @@ section .title::after {
   align-items: center;
 }
 .followme h3 {
-  color: #006d77;
+  color: #83c5be;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -789,19 +816,19 @@ section .title::after {
 .followme .footer-line {
   width: 60px;
   height: 2px;
-  background-color: #006d77;
+  background-color: #83c5be;
   margin: 0 1.2rem;
   display: inline-block;
 }
 
 .social-media a {
-  color: #83c5be;
+  color: #c1e2df;
   font-size: 1.3rem;
   margin-right: 0.4rem;
   transition: 0.3s;
 }
 .social-media a:hover {
-  background-color: #006d77;
+  background-color: #83c5be;
   color: white;
 }
 
