@@ -230,7 +230,7 @@ section .title::after {
   background-position: center;
 
   height: 100vh;
-  color: rgb(131, 197, 190);
+  color: #c1e2df;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -257,7 +257,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(0, 109, 119);
+  color: #006d77;
   font-weight: 500;
 }
 .home .home-content a {
