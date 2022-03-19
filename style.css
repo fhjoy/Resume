@@ -36,6 +36,7 @@ I changed #83c5be to #c1e2df
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 *:focus {
