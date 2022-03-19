@@ -893,6 +893,11 @@ section .title::after {
   }
 }
 @media (max-width: 947px) {
+  .about .about-content .left {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 100px;
+  }
   .menu-btn {
     display: block;
     z-index: 999;
@@ -998,6 +1003,16 @@ section .title::after {
     height: 100%;
     width: 100%;
   }
+  .about .title {
+    margin-bottom: 20px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+  .about .about-content .right ul li,
+  .about .about-content .right a {
+    font-size: 12px;
+  }
 
   .home .home-content .text-2 {
     font-size: 50px;
@@ -1030,6 +1045,18 @@ section .title::after {
   .about .about-content .right ul li,
   .about .about-content .right a {
     font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .about .title {
+    margin-bottom: 20px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+  .about .about-content .right ul li,
+  .about .about-content .right a {
+    font-size: 12px;
   }
 }
 
