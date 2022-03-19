@@ -36,7 +36,6 @@ I changed #83c5be to #c1e2df
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 *:focus {
@@ -894,15 +893,6 @@ section .title::after {
   }
 }
 @media (max-width: 947px) {
-
-  .about .about-content .left {
-    width: 60%;
-    height: 60%;
-    margin-bottom: 100px;
-  }
-  
-
-
   .menu-btn {
     display: block;
     z-index: 999;
@@ -1004,13 +994,10 @@ section .title::after {
 }
 
 @media (max-width: 500px) {
-  
   .about .about-content .left {
     height: 100%;
     width: 100%;
-    
   }
-}
 
   .home .home-content .text-2 {
     font-size: 50px;
