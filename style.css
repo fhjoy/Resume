@@ -673,6 +673,7 @@ section .title::after {
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
   border-color: #83c5be;
+  background-color: #c1e2df;
 }
 .contact .right form .textarea textarea {
   padding-top: 10px;
@@ -704,7 +705,7 @@ section .title::after {
 }
 ::placeholder {
   /* Firefox, Chrome, Opera */
-  color: #83c5be;
+  color: #c1e2df;
 }
 
 /* footer section styling */
