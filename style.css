@@ -1048,8 +1048,8 @@ section .title::after {
   }
 }
 @media (max-width: 420px) {
-  .about .title {
-    margin-bottom: 20px;
+  section .about .title {
+    margin-bottom: 20px !important;
   }
   .about .about-content .right {
     flex: 100%;
